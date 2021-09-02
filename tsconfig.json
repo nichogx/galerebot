@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2020",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"skipLibCheck": true,
+		"typeRoots": ["./node_modules/@types"],
+		"outDir": "build"
+	},
+	"exclude": ["node_modules"]
+}
